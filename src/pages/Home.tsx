@@ -74,10 +74,10 @@ const Home = () => {
         {/* ❌ Removed black overlay completely */}
         {/* Text directly over image */}
         <div className="relative z-10 text-white px-4 w-full">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
-            Scoops & Sips Desserts
+          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 drop-shadow-2xl tracking-wide">
+            Scoops and Sips Desserts
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto drop-shadow-lg">
+          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto drop-shadow-lg font-light">
             Indulge in handcrafted desserts, creamy scoops, and refreshing sips
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
